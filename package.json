@@ -1,0 +1,20 @@
+{
+  "name": "file-size-lodash",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "keywords": ["lodash"],
+  "author": "keita.M",
+  "license": "MIT",
+  "volta": {
+    "node": "18.14.0"
+  },
+  "dependencies": {
+    "big.js": "^6.2.1",
+    "gzip-size": "^7.0.0",
+    "json2md": "^2.0.0",
+    "lodash": "^4.17.21",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
