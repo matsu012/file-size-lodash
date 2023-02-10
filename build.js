@@ -9,7 +9,6 @@ Object.keys(lodash).forEach(k => {
   const filename = `${k}.js`
   const path = `./node_modules/lodash/${filename}`
   if (existsSync(path)) {
-   functionNames.push(k)
    webpackEntries.push({
     entry: path,
     output: {

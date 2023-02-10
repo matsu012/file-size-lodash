@@ -3,8 +3,6 @@ import { gzipSizeSync } from 'gzip-size'
 import big from 'big.js'
 import json2md from 'json2md'
 
-
-
 const functionNames = []
 
 const fileSizes = functionNames.map(fn => {
